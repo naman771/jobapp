@@ -1,0 +1,39 @@
+# === Java / Maven ===
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+
+# === Node / React ===
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# === Python ===
+ai-service/__pycache__/
+ai-service/*.pyc
+ai-service/venv/
+ai-service/.venv/
+
+# === IDE ===
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === Uploads ===
+uploads/
+
+# === Logs ===
+*.log
